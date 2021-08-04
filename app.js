@@ -1,12 +1,12 @@
 var btnTrans = document.querySelector('#btn-click');
 
-var texInput = document.querySelector('#text-input');
+var txtInput = document.querySelector('#text-input');
 
- console.log(texInput);
+var outputDiv = document.querySelector("#output");
 
 function clickHandler(){
-    console.log("clicked");
-    console.log("input",texInput.value);
+
+    outputDiv.innerText = txtInput.value;
 };
 
 btnTrans.addEventListener("click", clickHandler);
