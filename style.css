@@ -79,6 +79,7 @@ footer{
     height: 13vh;
     width: 100vw;
     background-color: rgb(255, 217, 0);
+    height: fit- content
 }
 
 .div-font{
