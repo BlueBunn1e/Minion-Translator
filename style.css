@@ -10,7 +10,7 @@ body {
     text-align: center;
     margin: auto;
     background-image: url("/img/wallpapersden.com_despicable-me-minions-wallpaper-desktop-hd_1920x1080.jpg");
-    display: flow-root;
+    display: block;
 }
 
 nav {   
@@ -37,6 +37,7 @@ textarea {
     padding: 1rem;
     border: rgb(255, 251, 40) solid ;
     border-radius: 0.5rem;
+    margin: 1rem;
 }
 
 #btn-click{
@@ -86,12 +87,4 @@ footer{
     padding: 2vh;
     font-size: large;
     color: rgb(49, 39, 33);
-}
-
-body {
-    font-family: 'DM Sans', sans-serif;
-    text-align: center;
-    margin: auto;
-    background-image: url("/img/wallpapersden.com_despicable-me-minions-wallpaper-desktop-hd_1920x1080.jpg");
-    display: flow-root;
 }
