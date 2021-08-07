@@ -6,9 +6,26 @@ var outputDiv = document.querySelector("#output");
 
 var urlApi = "https://api.funtranslations.com/translate/minion.json"
 
-function clickHandler(){
+function getUrl(input){
+    return urlApi + "?" + "text=" + input
+}
 
-    outputDiv.innerText = txtInput.value;
+function errorHandler(error) {
+    console.log("error accured", error);
+    alert("Somthing wrong with server: try again after some time");
+}
+
+function clickHandler(){
+    var inputText = txtInput.value;
+
+    fetch(getUrl(inputText))
+    .then(response => response.json())
+    .then(json => {
+        var translatedText = json.content.translated;
+        outputDiv.innerText = translatedText;
+    })
+    .catch(errorHandler)
+    
 };
 
 btnTrans.addEventListener("click", clickHandler);
