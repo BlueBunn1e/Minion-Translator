@@ -16,14 +16,16 @@ body {
 nav {   
     height: 10vh;
     width: 100vw;
-    background-color: rgb(255, 217, 0);
+    background-color: yellow;
 }
 
 .nav-heading{
+    text-shadow: black 20px;
     padding: 0.9vh;
     font-size: 6vh;
     color:rgb(255, 255, 255);
 
+    text-shadow: 3px 3px rgb(49, 39, 33);
 }
 
 header img {
@@ -31,22 +33,23 @@ header img {
 }
 
 textarea {
-    height: 6rem;
-    width: 25rem;
+    height: 8vh;
+    width: 35vw;
     font-size: 1.2rem;
     padding: 1rem;
-    border: rgb(255, 251, 40) solid ;
+    border: rgb(255, 255, 12) solid 4px;
     border-radius: 0.5rem;
 }
 
 #btn-click{
     margin: 1vh;
-    width: 8rem;
+    width: 10vh;
     height: 2.5rem;
-    border: rgb(255, 251, 40) solid ;
+    background-color: yellow;
     border-radius: 1rem;
-    background-color: rgb(0, 102, 255);
-    color: white;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 main div{
@@ -55,18 +58,18 @@ main div{
 
 .output-head{
     margin: auto;
+    width: 30vw;
     border-radius: 1vh;
-    font-size: 1.5rem;
-    background: white;
-    border: rgb(255, 251, 40) solid ;
-    border-radius: .5rem;
+    font-size: 1.2rem;
+    background-color: yellow;
+    color: rgb(49, 39, 33);
 }
 
 #output {
     border: 1px solid black;
     margin: 1vh auto;
-    height: 6rem;
-    width: 25rem;
+    height: 8vh;
+    width: 35vw;
     padding: 1rem;
     background-color: white;
     text-align: left;
@@ -76,21 +79,13 @@ main div{
 
 footer{
     margin-top: 10vh;
-    height: 13vh;
+    height: fit-content;
     width: 100vw;
-    background-color: rgb(255, 217, 0);
+    background-color: yellow;
 }
 
 .div-font{
     padding: 2vh;
     font-size: large;
     color: rgb(49, 39, 33);
-}
-
-body {
-    font-family: 'DM Sans', sans-serif;
-    text-align: center;
-    margin: auto;
-    background-image: url("/img/wallpapersden.com_despicable-me-minions-wallpaper-desktop-hd_1920x1080.jpg");
-    display: flow-root;
 }
