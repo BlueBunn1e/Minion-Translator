@@ -14,6 +14,7 @@ body {
 }
 
 nav {   
+    border: #22223b solid 4px;
     height: 10vh;
     width: 100vw;
     background-color: #f9c74f;
@@ -44,8 +45,8 @@ textarea {
 
 #btn-click{
     margin: 1vh;
-    width: 10vw;
-    height: 4vh;
+    width: 10rem;
+    height: 3rem;
     background-color: #f9c74f;
     border-radius: 1rem;
     color: #22223b;
@@ -91,6 +92,7 @@ footer{
 }
 
 .div-font{
+    border: #22223b solid 4px;
     padding: 2vh;
     font-size: large;
     color: rgb(49, 39, 33);
