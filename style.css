@@ -34,11 +34,12 @@ header img {
 }
 
 textarea {
+    margin: 0px;
     height: 6rem;
     width: 23rem;
     font-size: 1.2rem;
     padding: 1rem;
-    border: #f9c74f solid 4px;
+    border: #f9c74f solid 3px;
     border-radius: 0.5rem;
     
 }
@@ -65,8 +66,9 @@ main div{
     width: 20rem;
     border-radius: 1vh;
     font-size: 1.2rem;
-    background-color: #f9c74f;
-    color: rgb(49, 39, 33);
+    background-color: #22223b;
+    border: #f9c74f solid 1px;
+    color: #f9c74f;
 }
 
 #output {
@@ -84,7 +86,7 @@ main div{
 footer{
     margin-top: 15vh;
     height: fit-content;
-    width: 100vw;
+    width: 99.5vw;
     background-color: #f9c74f;
     height: fit- content
 }
