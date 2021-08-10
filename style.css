@@ -13,7 +13,8 @@ body {
     display: foot-root;
 }
 
-nav {   
+nav {
+    margin: auto;
     border: #22223b solid 4px;
     height: 10vh;
     width: 100vw;
@@ -22,8 +23,8 @@ nav {
 
 .nav-heading{
     text-shadow: black 20px;
-    padding: 0.9vh;
-    font-size: 6vh;
+    padding: 1.5vh;
+    font-size: 5vh;
     color:rgb(255, 255, 255);
 
     text-shadow: 3px 3px rgb(49, 39, 33);
