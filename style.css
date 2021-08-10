@@ -35,7 +35,7 @@ header img {
 
 textarea {
     height: 6rem;
-    width: 25rem;
+    width: 23rem;
     font-size: 1.2rem;
     padding: 1rem;
     border: #f9c74f solid 4px;
@@ -73,7 +73,7 @@ main div{
     border: 1px solid black;
     margin: 1vh auto;
     height: 6rem;
-    width: 25rem;
+    width: 23rem;
     padding: 1rem;
     background-color: white;
     text-align: left;
